@@ -1,0 +1,81 @@
+/*
+=======================================================================================
+                                    CSS geral
+=======================================================================================
+*/
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+body {
+   color: #21243d;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: #21243d;
+    text-decoration: none;
+}
+
+p {
+    line-height: 130%;
+}
+
+/* 
+=======================================================================================
+                                    CSS especifico 
+=======================================================================================
+*/
+
+header ul li {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+section.banner {
+    text-align: center;
+    padding: 0 5% 0 5%;
+
+}
+
+section.banner h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+
+section.banner p button {
+    background-color: #FF6464;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0 50px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+
+section.post {
+    background-color: #EDF7FA;
+    padding: 10px;
+}
+
+section.post h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+section.post ul li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 12px 10px 12px 10px;
+}
+
+section.post ul li h3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+}
+
+section.post ul li p {
+    margin: 15px 0 15px 0;
+}
